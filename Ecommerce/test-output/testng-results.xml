@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="193402" started-at="2020-05-30T13:02:29Z" finished-at="2020-05-30T13:05:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="193402" started-at="2020-05-30T13:02:29Z" finished-at="2020-05-30T13:05:43Z">
+      <class name="ECommSite">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ECommSite@4f933fd1]" name="beforeClass" is-config="true" duration-ms="129710" started-at="2020-05-30T18:32:29Z" finished-at="2020-05-30T18:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="ESignUp()[pri:0, instance:ECommSite@4f933fd1]" name="ESignUp" duration-ms="19102" started-at="2020-05-30T18:34:39Z" finished-at="2020-05-30T18:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ESignUp -->
+        <test-method status="PASS" signature="EcomExpert()[pri:0, instance:ECommSite@4f933fd1]" name="EcomExpert" duration-ms="44562" started-at="2020-05-30T18:34:58Z" depends-on-methods="ECommSite.ESignUp" finished-at="2020-05-30T18:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EcomExpert -->
+      </class> <!-- ECommSite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
